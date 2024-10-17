@@ -10,3 +10,8 @@ TEST_CASE("test")
 {
 	REQUIRE(test_config() == true);
 }
+
+TEST_CASE("Get earned points","points")
+{
+	REQUIRE(num(3)==3)
+}
