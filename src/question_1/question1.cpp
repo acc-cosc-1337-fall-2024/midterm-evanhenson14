@@ -1,12 +1,13 @@
 #include "question1.h"
-#include <cout>
+
 
 bool test_config()
 {
     return true;
 }
 
-get_earned_points(num)
+
+int get_earned_points(int num)
 {
     if (num >= 1 && num <= 5){
         return 1 * num;
@@ -19,7 +20,7 @@ get_earned_points(num)
     {
         return 10 * num;
     }
-    else if(num > 16)
+    else if(num >= 16)
     {
         return 15 * num;
     }

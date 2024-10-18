@@ -1,4 +1,6 @@
-#include <iostream>
-using std::cout
+#include<iostream>
+
+
 bool test_config();
-get_earned_points(int num);
+
+int get_earned_points(int num);
