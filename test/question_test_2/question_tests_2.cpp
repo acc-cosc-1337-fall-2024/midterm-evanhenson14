@@ -10,3 +10,9 @@ TEST_CASE("test")
 {
 	REQUIRE(test_config() == true);
 }
+TEST_CASE("Convert decimal to binary") 
+{
+    REQUIRE(decimal_to_binary(10) == "00001010");
+    REQUIRE(decimal_to_binary(170) == "10101010");
+    REQUIRE(decimal_to_binary(255) == "11111111");
+}
