@@ -6,7 +6,11 @@ TEST_CASE("Verify Test Configuration", "verification") {
 	REQUIRE(true == true);
 }
 
-TEST_CASE("test")
+TEST_CASE("Prime number tests") 
 {
-	REQUIRE(test_config() == true);
+    // Test is_prime function
+    REQUIRE(is_prime(2) == true);
+    REQUIRE(is_prime(3) == true);
+    REQUIRE(is_prime(4) == false);
+    REQUIRE(is_prime(5) == true);
 }
